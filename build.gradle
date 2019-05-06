@@ -9,12 +9,18 @@
 plugins {
     // Apply the java-library plugin to add support for Java Library
     id 'java-library'
+     id 'java'
+    
 }
+
+mainClassName = "scripts.TestExamples"
 
 repositories {
     // Use jcenter for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
-    jcenter()
+   jcenter()
+    
+   
 }
 
 dependencies {
